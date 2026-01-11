@@ -1,32 +1,3 @@
-<style>
-@keyframes slideIn {
-  from { transform: translateX(-50px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
-}
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-  40% { transform: translateY(-10px); }
-  60% { transform: translateY(-5px); }
-}
-h1 {
-  animation: slideIn 1s ease-out;
-}
-h2 {
-  animation: fadeIn 1s ease-in 0.5s both;
-}
-ul, ol {
-  animation: fadeIn 1s ease-in 1s both;
-}
-.emoji {
-  animation: bounce 2s infinite;
-  display: inline-block;
-}
-</style>
-
 # Gabriel Akinmoyero
 
 ## DevOps Engineer
@@ -63,3 +34,32 @@ Hi there, <span class="emoji">👋</span> I'm Gabriel Akinmoyero, a passionate D
 - 🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-akinmoyero/)
 
 Feel free to reach out for collaborations or discussions on DevOps and cloud technologies.
+
+<style>
+@keyframes slideIn {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+h1 {
+  animation: slideIn 1s ease-out;
+}
+h2 {
+  animation: fadeIn 1s ease-in 0.5s both;
+}
+ul, ol {
+  animation: fadeIn 1s ease-in 1s both;
+}
+.emoji {
+  animation: bounce 2s infinite;
+  display: inline-block;
+}
+</style>
